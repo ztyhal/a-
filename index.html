@@ -18,24 +18,24 @@
     <header>
         <div class="logo">豪门商城</div>
         <nav>
-            <a href="#">首页</a>
-            <a href="#">关于我们</a>
-            <a href="#">产品详情</a>
-            <a href="#">购买渠道</a>
-            <a href="#">团队介绍</a>
-            <a href="#">公司动态</a>
+            <a href="#home">首页</a>
+            <a href="#about-us">关于我们</a>
+            <a href="#showcases">产品详情</a>
+            <a href="#service">购买渠道</a>
+            <a href="#team-intro">团队介绍</a>
+            <a href="#company-activities">公司动态</a>
             <i class="fas fa-search"></i>
         </nav>
         <div class="burger">
-            <div class="burder-line">1</div>
-            <div class="burder-line">2</div>
-            <div class="burder-line">3</div>
+            <div class="burger-line1"></div>
+            <div class="burger-line2"></div>
+            <div class="burger-line3"></div>
         </div>
     </header>
     <!-- 顶部导航栏end-->
 
     <!-- 轮播图start -->
-    <div class="glide">
+    <div class="glide" id="home">
         <!-- glide组件格式 -->
         <div class="glide__track" data-glide-el="track">
             <div class="glide__slides">
@@ -77,10 +77,10 @@
 
     <!-- 底部关于我们start -->
     <div class="content-wrapper">
-        <section class="about-us">
+        <section class="about-us" id="about-us">
             <h2 class="title1">关于我们</h2>
             <p class="intro">
-                内蒙古恒元正达贸易集团有限公司于2015年01月20日成立。,公司经营范围包括：、焦炭、焦粉、焦粒、碳素、钢材、建材等。
+                内蒙古恒元正达贸易集团有限公司于2015年01月20日成立。公司经营范围包括：、焦炭、焦粉、焦粒、碳素、钢材、建材等。
             </p>
             <div class="features">
                 <div class="feature">
@@ -118,7 +118,7 @@
         <!-- 底部关于我们end -->
 
         <!-- 成功案例start -->
-        <section class="showcases section-bg">
+        <section class="showcases section-bg" id="showcases">   
             <h2 class="title1">成功案例</h2>
             <div class="filter-btns">
                 <button class="filter-btn active" data-filter="*">全部</button>
@@ -156,7 +156,7 @@
         <!-- 成功案例end -->
 
         <!-- 服务流程start -->
-        <section class="service">
+        <section class="service" id="service">
             <h2 class="title1">服务流程</h2>
             <p class="intro">
                 恒元正达集团旗下控股贸易公司主要以电子商务、互联网金融、互联网金融支付宝为商家搭建广告平台、实现支付宝产供销一体化的综合性服务。
@@ -209,7 +209,7 @@
         <!-- 服务流程end -->
 
         <!-- 团队介绍start -->
-        <section class="team-intro section-bg">
+        <section class="team-intro section-bg" id="team-intro">
             <h2 class="title1">团队介绍</h2>
             <div class="team-members">
                 <div class="team-member">
@@ -286,7 +286,7 @@
         <!-- 数据部分end -->
 
         <!-- 公司动态start -->
-        <section class="company-activities">
+        <section class="company-activities" id="company-activities">
             <h2 class="title1">公司动态</h2>
             <p class="intro">关注公司动态，第一时间获取一手信息</p>
             <div class="activities">
@@ -397,6 +397,7 @@
     <script src="./libs/anime/anime.min.js"></script>
     <script src="./libs/glide/glide.min.js"></script>
     <script src="./libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="./libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
     <script src="./index.js"></script>
 </body>
 
