@@ -10,56 +10,56 @@
     <link rel="stylesheet" href="./libs/glide/glide.theme.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css">
-    <title>恒元正达商城</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>模拟厨房</title>
 </head>
 
 <body>
     <!-- 顶部导航栏start -->
     <header>
-        <div class="logo">豪门商城</div>
+        <div class="logo"></div>
         <nav>
-            <a href="#">首页</a>
-            <a href="#">关于我们</a>
-            <a href="#">产品详情</a>
-            <a href="#">购买渠道</a>
-            <a href="#">团队介绍</a>
-            <a href="#">公司动态</a>
+            <a href="#home">首页</a>
+            <a href="#about-us">菜谱大全</a>
+            <a href="#showcases">食谱大全</a>
+            <a href="#service">视频互动</a>
+            <a href="#team-intro"></a>
+            <a href="./zc.html">试着做做</a>
             <i class="fas fa-search"></i>
         </nav>
         <div class="burger">
-            <div class="burder-line">1</div>
-            <div class="burder-line">2</div>
-            <div class="burder-line">3</div>
+            <div class="burger-line1"></div>
+            <div class="burger-line2"></div>
+            <div class="burger-line3"></div>
         </div>
     </header>
     <!-- 顶部导航栏end-->
 
     <!-- 轮播图start -->
-    <div class="glide">
+    <div class="glide" id="home">
         <!-- glide组件格式 -->
         <div class="glide__track" data-glide-el="track">
             <div class="glide__slides">
                 <div class="glide__slide">
                     <!-- 轮播标题 -->
                     <div class="slide-caption">
-                        <h1>恒元正达 创新从未改变</h1>
-                        <h3>内蒙古恒元正达影视文化传媒有限公司办公室地址位于黄河明珠、书法之城、沙漠绿洲、葡萄之乡乌海，内蒙古自治区乌海市海勃湾区</h3>
+                        <h1>模拟厨房</h1>
+                        <h3>模拟厨房，解决你做饭你一切顾虑</h3>
                         <button class="explore-btn">探索更多</button>
                     </div>
                     <div class="backrop"></div>
-                    <img src="./images/people-in-couch-1024248.jpg" alt="">
+                    <img src="./images/11.jpg" alt="">
                 </div>
                 <div class="glide__slide">
                     <!-- 轮播标题 -->
                     <div class="slide-caption left">
-                        <h1>友情岁月</h1>
-                        <h3>在公司发展壮大的4年里，我们始终为客户提供好的产品和技术支持、健全的售后服务，我公司主要经营许可经营项目：无
-                            一般经营项目：影视策划制作、拍摄、发行；广告设计、制作、代理及发布；大型文艺活动及演出；企业形象策划。</h3>
+                        <h1>你就是厨神</h1>
+                        <h3>在这里，你可以搜索食谱，烹饪模拟，食谱认证，厨师认证。我们功能齐全，模块丰富，你可以搜到各种食谱配方。放心吧，你一定能做出自己喜欢的佳肴！</h3>
                         <button class="explore-btn">探索更多</button>
 
                     </div>
                     <div class="backrop"></div>
-                    <video src="./videos/working-man.mp4" muted autoplay loop></video>
+                    <video src="./videos/1.mp4" muted autoplay loop></video>
                 </div>
             </div>
         </div>
@@ -77,131 +77,132 @@
 
     <!-- 底部关于我们start -->
     <div class="content-wrapper">
-        <section class="about-us">
-            <h2 class="title1">关于我们</h2>
+        <section class="about-us" id="about-us">
+            <h2 class="title1">看看你想要什么</h2>
             <p class="intro">
-                内蒙古恒元正达贸易集团有限公司于2015年01月20日成立。,公司经营范围包括：、焦炭、焦粉、焦粒、碳素、钢材、建材等。
+                鲁菜、川菜、粤菜、淮扬菜。想做什么做什么！
             </p>
             <div class="features">
                 <div class="feature">
                     <i class="fas fa-lightbulb"></i>
-                    <h4 class="feature-title">品牌创意</h4>
-                    <p class="feature-content">致力于互联网金融、市政工程建筑安装、影视投资发行及教育培训</p>
+                    <h4 class="feature-titadle">菜谱大全</h4>
+                    <p class="feature-content">不知道要做什么菜？先来这里看看吧</p>
                 </div>
                 <div class="feature">
                     <i class="fas fa-chart-line"></i>
-                    <h4 class="feature-title">整合营销</h4>
-                    <p class="feature-content">致力于互联网金融、市政工程建筑安装、影视投资发行及教育培训</p>
+                    <h4 class="feature-title">家常菜</h4>
+                    <p class="feature-content">朋友，父母，亲戚都来了，你想露一手，简单的家常菜这里都有。</p>
                 </div>
                 <div class="feature">
                     <i class="fas fa-shopping-cart"></i>
-                    <h4 class="feature-title">电子商务</h4>
-                    <p class="feature-content">致力于互联网金融、市政工程建筑安装、影视投资发行及教育培训</p>
+                    <h4 class="feature-title">健康饮食</h4>
+                    <p class="feature-content">吃腻了大鱼大肉，来点绿色健康小食品吧。</p>
                 </div>
                 <div class="feature">
                     <i class="fas fa-desktop"></i>
-                    <h4 class="feature-title">网页设计</h4>
-                    <p class="feature-content">致力于互联网金融、市政工程建筑安装、影视投资发行及教育培训</p>
+                    <h4 class="feature-title">早餐食谱</h4>
+                    <p class="feature-content">一年之计在于春，一日之计在于晨。千万别不吃早餐！！</p>
                 </div>
                 <div class="feature">
                     <i class="fas fa-tachometer-alt"></i>
-                    <h4 class="feature-title">网站优化</h4>
-                    <p class="feature-content">致力于互联网金融、市政工程建筑安装、影视投资发行及教育培训</p>
+                    <h4 class="feature-title">育婴专区</h4>
+                    <p class="feature-content">当爸爸或者妈妈的你，怎么能不让自己吃得好，宝贝吃得好呢？</p>
                 </div>
                 <div class="feature">
                     <i class="fas fa-tachometer-alt"></i>
-                    <h4 class="feature-title">网站架设</h4>
-                    <p class="feature-content">致力于互联网金融、市政工程建筑安装、影视投资发行及教育培训</p>
+                    <h4 class="feature-title">特色食品</h4>
+                    <p class="feature-content">看着网红大佬们做的美味，难道你不想试试么，你也一定能行。</p>
                 </div>
             </div>
         </section>
         <!-- 底部关于我们end -->
 
         <!-- 成功案例start -->
-        <section class="showcases section-bg">
-            <h2 class="title1">成功案例</h2>
+        <section class="showcases section-bg" id="showcases">   
+            <h2 class="title1">今天吃什么</h2>
             <div class="filter-btns">
-                <button class="filter-btn active" data-filter="*">全部</button>
-                <button class="filter-btn" data-filter=".web">WEB</button>
-                <button class="filter-btn" data-filter=".mobile">移动</button>
-                <button class="filter-btn" data-filter=".science">科研</button>
+                <button class="filter-btn active" data-filter="*">肉类</button>
+                <button class="filter-btn" data-filter=".web">蔬菜类</button>
+                <button class="filter-btn" data-filter=".mobile">甜品</button>
+                <button class="filter-btn" data-filter=".science">早餐</button>
             </div>
             <div class="cases">
                 <div class="case-item web science">
-                    <img src="./images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg" alt="">
+                    <img src="./images/r.jpg" alt="">
                 </div>
                 <div class="case-item web science">
-                    <img src="./images/photo-of-imac-near-macbook-1029757.jpg" alt="">
+                    <img src="./images/s.jpg" alt="">
                 </div>
                 <div class="case-item web">
-                    <img src="./images/apple-apple-device-design-desk-285814.jpg" alt="">
+                    <img src="./images/t.jpg" alt="">
                 </div>
                 <div class="case-item mobile">
-                    <img src="./images/apple-laptop-notebook-office-39284.jpg" alt="">
+                    <img src="./images/z.jpg" alt="">
                 </div>
                 <div class="case-item web">
-                    <img src="./images/person-using-black-and-white-smartphone-and-holding-blue-230544.jpg" alt="">
+                    <img src="./images/r2.jpg" alt="">
                 </div>
                 <div class="case-item science">
-                    <img src="./images/person-holding-a-smartphone-892757.jpg" alt="">
+                    <img src="./images/s2.jpg" alt="">
                 </div>
                 <div class="case-item science mobile">
-                    <img src="./images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg" alt="">
+                    <img src="./images/t2.jpg" alt="">
                 </div>
                 <div class="case-item mobile">
-                    <img src="./images/blur-close-up-code-computer-546819.jpg" alt="">
+                    <img src="./images/z2.jpg" alt="">
                 </div>
             </div>
         </section>
         <!-- 成功案例end -->
 
         <!-- 服务流程start -->
-        <section class="service">
-            <h2 class="title1">服务流程</h2>
+        <section class="service" id="service">
+            <h2 class="title1">主要流程</h2>
             <p class="intro">
-                恒元正达集团旗下控股贸易公司主要以电子商务、互联网金融、互联网金融支付宝为商家搭建广告平台、实现支付宝产供销一体化的综合性服务。
+                跟着下面的步骤，一桌好菜等着你
             </p>
             <div class="services">
                 <div class="service-item">
                     <i class="fas fa-comments"></i>
-                    <h2 class="service-title">需求沟通</h2>
+                    <h2 class="service-title">想想自己做什么</h2>
                     <p class="service-content">
-                        为乌海市人民提供“简单、安全、快捷”的交易方式。
+                        今天想吃辣呢，还是想吃咸呢，还是想吃甜呢，先想想自己想吃什么。
                     </p>
                 </div>
                 <div class="service-item">
                     <i class="fas fa-gavel"></i>
-                    <h2 class="service-title">需求沟通</h2>
+                    <h2 class="service-title">看看自己有什么</h2>
                     <p class="service-content">
-                        为乌海市人民提供“简单、安全、快捷”的交易方式。
+                        现在起身去厨房，看看自己家里有什么能做的。
                     </p>
                 </div>
                 <div class="service-item">
                     <i class="fas fa-signature"></i>
-                    <h2 class="service-title">需求沟通</h2>
+                    <h2 class="service-title">问问大家怎么做</h2>
                     <p class="service-content">
-                        为乌海市人民提供“简单、安全、快捷”的交易方式。
+                        来这里看看菜谱，跟着视频一起，或者是做之前先模拟一下做饭的过程，万无一失嘛。
                     </p>
                 </div>
                 <div class="service-item">
                     <i class="fas fa-user"></i>
-                    <h2 class="service-title">需求沟通</h2>
+                    <a href="./zc.html">√</a>
+                    <h2 class="service-title">动动双手做起来</h2>
                     <p class="service-content">
-                        为乌海市人民提供“简单、安全、快捷”的交易方式。
+                        不知道做什么，先模拟一下吧。
                     </p>
                 </div>
                 <div class="service-item">
                     <i class="fas fa-chalkboard-teacher"></i>
-                    <h2 class="service-title">需求沟通</h2>
+                    <h2 class="service-title">快快乐乐来吃饭</h2>
                     <p class="service-content">
-                        为乌海市人民提供“简单、安全、快捷”的交易方式。
+                        你这么聪明，加上我们的帮助，现在美味一定上桌了吧
                     </p>
                 </div>
                 <div class="service-item">
                     <i class="fas fa-user-check"></i>
-                    <h2 class="service-title">需求沟通</h2>
+                    <h2 class="service-title">千万别忘了分享</h2>
                     <p class="service-content">
-                        为乌海市人民提供“简单、安全、快捷”的交易方式。
+                        如果觉得我们对你有帮助，别忘了告诉身边朋友一起使用模拟厨房啊
                     </p>
                 </div>
             </div>
@@ -209,15 +210,15 @@
         <!-- 服务流程end -->
 
         <!-- 团队介绍start -->
-        <section class="team-intro section-bg">
-            <h2 class="title1">团队介绍</h2>
+        <section class="team-intro section-bg" id="team-intro">
+            <h2 class="title1">功能介绍</h2>
             <div class="team-members">
                 <div class="team-member">
                     <div class="profile-image">
-                        <img src="./images/man-wearing-black-suit-2955376.jpg" alt="">
+                        <img src="./images/cp.jpg" alt="">
                     </div>
-                    <h4 class="name">李鹤超</h4>
-                    <p class="position">公司颜值才华担当</p>
+                    <h4 class="name">菜谱大全</h4>
+                    <p class="position">拥有几乎你能想到的所有菜品</p>
                     <ul class="social-links">
                         <li><a href=""><i class="fab fa-weixin"></i></a></li>
                         <li><a href=""><i class="fab fa-weibo"></i></a></li>
@@ -225,11 +226,11 @@
                 </div>
                 <div class="team-member">
                     <div class="profile-image">
-                        <img src="./images/selective-focus-photograph-of-man-wearing-gray-suit-jacket-1138903.jpg"
+                        <img src="./images/sp.jpg"
                             alt="">
                     </div>
-                    <h4 class="name">华文全</h4>
-                    <p class="position">公司颜值才华担当</p>
+                    <h4 class="name">食谱大全</h4>
+                    <p class="position">菜市场有的我们都有</p>
                     <ul class="social-links">
                         <li><a href=""><i class="fab fa-weixin"></i></a></li>
                         <li><a href=""><i class="fab fa-weibo"></i></a></li>
@@ -237,10 +238,10 @@
                 </div>
                 <div class="team-member">
                     <div class="profile-image">
-                        <img src="./images/business-woman-2697954_1920.jpg" alt="">
+                        <img src="./images/hd.jpg" alt="">
                     </div>
-                    <h4 class="name">李鹤超</h4>
-                    <p class="position">公司颜值才华担当</p>
+                    <h4 class="name">视频互动</h4>
+                    <p class="position">来跟着视频一起做菜才不孤单</p>
                     <ul class="social-links">
                         <li><a href=""><i class="fab fa-weixin"></i></a></li>
                         <li><a href=""><i class="fab fa-weibo"></i></a></li>
@@ -248,10 +249,10 @@
                 </div>
                 <div class="team-member">
                     <div class="profile-image">
-                        <img src="./images/smiling-woman-wearing-black-sweater-1587009.jpg" alt="">
+                        <img src="./images/cf.jpg" alt="">
                     </div>
-                    <h4 class="name">李鹤超</h4>
-                    <p class="position">公司颜值才华担当</p>
+                    <h4 class="name">模拟厨房</h4>
+                    <p class="position">把自己有的食物，调料放到模拟厨房，看看能做出什么菜</p>
                     <ul class="social-links">
                         <li><a href=""><i class="fab fa-weixin"></i></a></li>
                         <li><a href=""><i class="fab fa-weibo"></i></a></li>
@@ -264,78 +265,78 @@
         <section class="data-section">
             <div class="data-piece">
                 <i class="fas fa-code"></i>
-                <div class="num">156</div>
-                <div class="data-desc">行代码</div>
+                <div class="num">288</div>
+                <div class="data-desc">道菜品</div>
             </div>
             <div class="data-piece">
                 <i class="fas fa-award"></i>
-                <div class="num">288</div>
-                <div class="data-desc">个奖项</div>
+                <div class="num">156</div>
+                <div class="data-desc">个视频</div>
             </div>
             <div class="data-piece">
                 <i class="fas fa-laugh-wink"></i>
                 <div class="num">1588</div>
-                <div class="data-desc">位客户</div>
+                <div class="data-desc">位吃货</div>
             </div>
             <div class="data-piece">
                 <i class="fas fa-folder"></i>
-                <div class="num">200</div>
-                <div class="data-desc">个项目</div>
+                <div class="num">20</div>
+                <div class="data-desc">位厨师</div>
             </div>
         </section>
         <!-- 数据部分end -->
 
         <!-- 公司动态start -->
-        <section class="company-activities">
-            <h2 class="title1">公司动态</h2>
-            <p class="intro">关注公司动态，第一时间获取一手信息</p>
+        <section class="company-activities" id="company-activities">
+            <h2 class="title1">作品动态</h2>
+            <p class="intro">按照菜谱，秀出你的作品</p>
             <div class="activities">
                 <div class="activity">
                     <div class="act-image-wrapper">
-                        <img src="./images/activity01-image.jpg" alt="">
+                        <img src="./images/c1.jpg" alt="">
                     </div>
                     <div class="meta">
                         <p class="date-published">
-                            <i class="far fa-calendar"></i>2020年3月18日
+                            <i class="far fa-calendar"></i>🕵️‍♀️逸雪(河南，洛阳)
                         </p>
                         <p class="comments">
                             <i class="far fa-comments"></i>33条评论
                         </p>
                     </div>
-                    <h2 class="act-title">致力于互联网金融、影视投资发行及教育培训</h2>
-                    <article> 恒元正达集团旗下控股贸易公司主要以电子商务、互联网金融、互联网金融支付宝为商家搭建广告平台、实现支付宝产供销一体化的综合性服务。</article>
+                    <h2 class="act-title">口味研究院|丸庄新品评鉴会</h2>
+                    <article>鸡肉用丸庄黑豆原汁酱油腌制，这款酱油采用九成黑豆一成麦酿造而成，提鲜入味最合适不过，而且零添加，让家人食用更安心。</article>
                     <button class="read-more-btn">阅读更多</button>
                 </div>
                 <div class="activity">
                     <div class="act-image-wrapper">
-                        <img src="./images/red-suspension-bridge-3493772.jpg" alt="">
+                        <img src="./images/c2.jpg" alt="">
                     </div>
                     <div class="meta">
                         <p class="date-published">
-                            <i class="far fa-calendar"></i>2020年3月18日
+                            <i class="far fa-calendar"></i>👨‍🍳妍妈妈
                         </p>
                         <p class="comments">
                             <i class="far fa-comments"></i>33条评论
                         </p>
                     </div>
-                    <h2 class="act-title">致力于互联网金融、影视投资发行及教育培训</h2>
-                    <article> 恒元正达集团旗下控股贸易公司主要以电子商务、互联网金融、互联网金融支付宝为商家搭建广告平台、实现支付宝产供销一体化的综合性服务。</article>
+                    <h2 class="act-title">胡姬花|人人都是风味厨神</h2>
+                    <article>选用胡姬花古法小榨花生油烹饪炒菜就是香！#晚餐^2020年6月7日##胡姬花真香#</article>
                     <button class="read-more-btn">阅读更多</button>
                 </div>
                 <div class="activity">
                     <div class="act-image-wrapper">
-                        <img src="./images/watercrafts-on-river-3464632.jpg" alt="">
+                        <img src="./images/c3.jpg" alt="">
                     </div>
                     <div class="meta">
                         <p class="date-published">
-                            <i class="far fa-calendar"></i>2020年3月18日
+                            <i class="far fa-calendar"></i>AunFain
                         </p>
                         <p class="comments">
                             <i class="far fa-comments"></i>33条评论
                         </p>
                     </div>
-                    <h2 class="act-title">致力于互联网金融、影视投资发行及教育培训</h2>
-                    <article> 恒元正达集团旗下控股贸易公司主要以电子商务、互联网金融、互联网金融支付宝为商家搭建广告平台、实现支付宝产供销一体化的综合性服务。</article>
+                    <h2 class="act-title">凯瑞玛|玛上好滋味</h2>
+                    <article>高产的一天 哈哈哈哈😘为了今天的勤劳鼓掌👏太爱巧克力味冰激凌了 简直我的爱~#晚餐^2020年6月8日##独胖胖不如众胖胖#</article>
                     <button class="read-more-btn">阅读更多</button>
                 </div>
             </div>
@@ -347,7 +348,7 @@
         <div class="footer-menus">
             <div class="contact-us">
                 <p class="menu-title">联系我们</p>
-                <p>地址：内蒙古乌海市海勃湾区新华东街47号</p>
+                <p>地址：天津理工大学中环信息学院</p>
                 <p>联系电话：13666666666</p>
                 <p>邮箱：78787878@qq.com</p>
                 <p>传真：+18616165481</p>
@@ -355,17 +356,17 @@
             <div class="service-menu footer-menu">
                 <p class="menu-title">成功案例</p>
                 <ul class="menu-items">
-                    <li><a href="#">互联网金融</a></li>
-                    <li><a href="#">市政工程建筑安装</a></li>
-                    <li><a href="#">影视投资发行</a></li>
-                    <li><a href="#">教育培训</a></li>
+                    <li><a href="#">菜品展示</a></li>
+                    <li><a href="#">发布视频</a></li>
+                    <li><a href="#">分享评论</a></li>
+                    <li><a href="#">欢迎转发</a></li>
                 </ul>
             </div>
             <div class="service-menu footer-menu">
-                <p class="menu-title">公司动态</p>
+                <p class="menu-title">最近动态</p>
                 <ul class="menu-items">
                     <li><a href="#">信息公开</a></li>
-                    <li><a href="#">最近新闻</a></li>
+                    <li><a href="#">最近动态</a></li>
                     <li><a href="#">最近博客</a></li>
                 </ul>
             </div>
@@ -374,20 +375,18 @@
                 <ul class="menu-items">
                     <li><a href="#">帮助中心</a></li>
                     <li><a href="#">联系客服</a></li>
-                    <li><a href="#">文档资源</a></li>
+                    <li><a href="#">菜谱资源</a></li>
                 </ul>
             </div>
             <div class="service-menu footer-menu">
                 <p class="menu-title">服务概览</p>
                 <ul class="menu-items">
-                    <li><a href="#">互联网金融</a></li>
-                    <li><a href="#">市政工程建筑安装</a></li>
-                    <li><a href="#">影视投资发行</a></li>
-                    <li><a href="#">教育培训</a></li>
+                    <li><a href="#">搜索菜谱</a></li>
+                    <li><a href="#">搜索食材</a></li>
+                    <li><a href="#">观看视频</a></li>
+                    <li><a href="#">模拟厨房</a></li>
                 </ul>
             </div>
-            <p class="icp-info">京ICP备 12345678901-1 号</p>
-            <p class="right">&copy;2020 恒元正达-贸易集团有限公司 版权所有</p>
             <div class="scrollToTop">
                 <a href="#"><i class="fas fa-chevron-up"></i></a>
             </div>
@@ -397,6 +396,7 @@
     <script src="./libs/anime/anime.min.js"></script>
     <script src="./libs/glide/glide.min.js"></script>
     <script src="./libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="./libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
     <script src="./index.js"></script>
 </body>
 
